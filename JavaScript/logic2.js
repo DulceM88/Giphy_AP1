@@ -7,7 +7,7 @@ function displayShow(){
 	  //variables that will store the name of the show(data-name)
 	  //and var which stores the api url and inserts the data name value into the search parameters
 	  var tvShow = $(this).attr("data-name");
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
       tvShow + "&api_key=dc6zaTOxFJmzC&limit=10";
       	//call to api using GET method
         $.ajax({
