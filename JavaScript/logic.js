@@ -1,4 +1,4 @@
-
+/* earlier versone of my js for this assignment
 //Event listener for click event on page, on click data title is retrieved
 //and stored in tvShow variable
  $("button").on("click", function() {
